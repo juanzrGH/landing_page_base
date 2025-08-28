@@ -1,0 +1,123 @@
+/* ======== ESTILOS GENERALES ======== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+header {
+  background-color: #004080;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+nav {
+  margin-top: 10px;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ======== PRODUCTOS ======== */
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+.producto {
+  border: 2px solid #004080;
+  border-radius: 10px;
+  padding: 20px;
+  background: white;
+  text-align: center;
+}
+.producto img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.producto button {
+  background: #004080;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.producto button:hover {
+  background: #0066cc;
+}
+
+/* ======== CARRITO ======== */
+.carrito {
+  padding: 30px;
+  background: #fff;
+  border-top: 3px solid #004080;
+  text-align: center;
+}
+.carrito table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.carrito th, .carrito td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+.btn-eliminar {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn-finalizar {
+  margin-top: 20px;
+  background: green;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* ======== SECCIONES TITULOS CENTRADOS ======== */
+#reseñas h2, #historia h2 {
+    text-align: center;
+}
+    /* ================== RESEÑAS ================== */
+.reseñas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.reseña {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+/* ======== FOOTER ======== */
+footer {
+  background: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+footer a {
+  color: yellow;
+  text-decoration: none;
+  margin: 0 10px;
+}
